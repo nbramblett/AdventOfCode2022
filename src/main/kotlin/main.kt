@@ -1,5 +1,13 @@
+import day1.solve
+import inputs.readProblem
+import kotlin.time.ExperimentalTime
+import kotlin.time.measureTime
+
+
+@OptIn(ExperimentalTime::class)
 fun main() {
-    println("What's your name?")
-    val name = readln()
-    println("Hello, $name!")
+    val lines = readProblem("0_0")
+
+    val time = measureTime {  solve(lines) }
+    println(time)
 }
