@@ -4,5 +4,5 @@ I've never used Kotlin before so this is a learning experience first and foremos
 
 ### Day 1
 
-I was apparently wrong to think that for-loops would have the same syntax, but aside from that hiccup not much to say
+I was apparently wrong to think that for-loops would have the same syntax as Java, but aside from that hiccup not much to say
 here.
