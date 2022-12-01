@@ -1,8 +1,8 @@
 package day1
 
-fun solve(lines : List<String>) {
-    part1(lines)
-    part2(lines)
+fun solve(vararg lines : List<String>) {
+    part1(lines[0])
+    part2(lines[0])
 }
 
 fun part1(lines : List<String>) {

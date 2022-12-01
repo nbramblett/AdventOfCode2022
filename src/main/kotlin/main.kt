@@ -6,7 +6,7 @@ import kotlin.time.measureTime
 
 @OptIn(ExperimentalTime::class)
 fun main() {
-    val lines = readProblem("0_0")
+    val lines = readProblem("1_1")
 
     val time = measureTime {  solve(lines) }
     println(time)
