@@ -17,4 +17,4 @@ unclear how the forEach syntax works; I expected it to be like Java where it exp
 
 I got pretty thrown off by the fact that Kotlin doesn't let you cast a Char to Int directly, had to go look it up and
 learn about `.code`. There's almost definitely a better way to calculate the values, but this worked nicely.
-The built-in `chunk()` method was a godsend for Part 2 also, though I did get misled originally by trying `partition()`.
+The built-in `chunked()` method was a godsend for Part 2 also, though I did get misled originally by trying `partition()`.

@@ -11,21 +11,19 @@ fun part1(lines : List<String>) {
         val first = it.substring(0, it.length/2)
         val sec = it.substring(it.length/2, it.length)
 
-        var common : Char = ' '
-        OUTER@for(i in first.indices) {
-            for(j in sec.indices) {
-                if (first[i] == sec[j]) {
-                    common = first[i]
-                    break@OUTER
-                }
+        var common = ' '
+        for(i in first) {
+            if(sec.contains(i)) {
+                common = i
+                break
             }
         }
 
         var v = 0
-        if (common.lowercase()[0] == common) {
-            v = common.code - 96
+        v = if (common.isLowerCase()) {
+            common.code - 96
         } else {
-            v = common.code - 38
+            common.code - 38
         }
         sum += v
     }
@@ -53,10 +51,10 @@ fun part2(lines : List<String>) {
             }
         }
         var v = 0
-        if (common.lowercase()[0] == common) {
-            v = common.code - 96
+        v = if (common.isLowerCase()) {
+            common.code - 96
         } else {
-            v = common.code - 38
+            common.code - 38
         }
         sum += v
     }
