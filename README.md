@@ -18,3 +18,10 @@ unclear how the forEach syntax works; I expected it to be like Java where it exp
 I got pretty thrown off by the fact that Kotlin doesn't let you cast a Char to Int directly, had to go look it up and
 learn about `.code`. There's almost definitely a better way to calculate the values, but this worked nicely.
 The built-in `chunked()` method was a godsend for Part 2 also, though I did get misled originally by trying `partition()`.
+
+### Day 4
+
+Pretty happy with my approach to this one tbh. I got to try a couple of new language features and the
+end result is a fairly elegant boolean check.
+It's basically calculating overlapping hitboxes in a video game, which I have done before, so I did
+have a bit of an advantage there.
