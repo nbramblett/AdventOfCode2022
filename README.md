@@ -25,3 +25,7 @@ Pretty happy with my approach to this one tbh. I got to try a couple of new lang
 end result is a fairly elegant boolean check.
 It's basically calculating overlapping hitboxes in a video game, which I have done before, so I did
 have a bit of an advantage there.
+
+### Day 5
+
+Input format was absolutely awful. Actual problem was just stack pushing and popping.
