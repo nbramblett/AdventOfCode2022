@@ -29,3 +29,13 @@ have a bit of an advantage there.
 ### Day 5
 
 Input format was absolutely awful. Actual problem was just stack pushing and popping.
+
+### Day 6
+
+No comment
+
+### Day 7
+
+I liked this one! Syntax trees are neat concepts and this was fun to do. A bit hacky but it worked.
+I honestly expected part 2 to make the file names relevant somehow, but thankfully it did not, so I
+was able to reuse my part 1 code pretty heavily.
