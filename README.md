@@ -39,3 +39,10 @@ No comment
 I liked this one! Syntax trees are neat concepts and this was fun to do. A bit hacky but it worked.
 I honestly expected part 2 to make the file names relevant somehow, but thankfully it did not, so I
 was able to reuse my part 1 code pretty heavily.
+
+### Day 8
+Part 2 could definitely be more efficient but oh well
+
+### Day 9
+I scored really well here! Rank 284 globally. Taking a bit of extra time to write a reusable Knot
+class definitely paid off in part 2, where I could just extend my solution to part 1 for 10 Knots.
