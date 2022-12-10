@@ -54,7 +54,7 @@ fun part2(lines : List<String>) {
     adder.cycleX.forEachIndexed{i, it ->
         val pos = i % 40
         if(it - 1 == pos || it == pos || it + 1 == pos){
-            print('█')
+            print('@')
         } else print(' ')
         if(i %40 == 39 ) {
             println()
