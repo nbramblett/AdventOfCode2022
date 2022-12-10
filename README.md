@@ -46,3 +46,7 @@ Part 2 could definitely be more efficient but oh well
 ### Day 9
 I scored really well here! Rank 284 globally. Taking a bit of extra time to write a reusable Knot
 class definitely paid off in part 2, where I could just extend my solution to part 1 for 10 Knots.
+
+### Day 10
+Extremely salty that I misread the prompt at first and set X's starting value to 0 instead of 1.
+That definitely cost me at least a thousand places on the leaderboard :(
